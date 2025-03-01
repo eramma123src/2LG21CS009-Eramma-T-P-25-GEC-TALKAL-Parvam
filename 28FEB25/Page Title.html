@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  background-image: url(download.jpeg);
+  background-size: 100% 100%;
+  background-image: stretch;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Note -->
+<div style="background:yellow;padding:5px">
+  <h4 style="text-align:center">Resize the browser window to see the responsive effect.</h4>
+</div>
+
+<!-- Header -->
+<div class="header">
+  <h1>Send a Smile</h1>
+  <p>With a <b>flexible</b> layout.</p>
+</div>
+
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="#">shop by collections</a>
+  <a href="#">Home</a>
+  <a href="#">Shop By Occasions</a>
+  <a href="#">Floral Decor</a>
+  <a href="#">Choose Your City</a>
+</div>
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+    <h2>About Me Hello! I'm Lisa, a passionate writer and avid learner. With a background in devloper, I've developed a unique voice that blends creativity with technical expertise. When I'm not writing, you can find me flower gardening in beautiful. I'm driven by a desire to gardining for beautiful, and I'm excited to share my journey with you."
+    </h2>
+    <h5>Photo of me:</h5>
+    <div class="fakeimg" style="height:5opx;width: 20px;">
+      <img src="Ls.jpg"/>
+    </div>
+    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    <h3>More Text</h3>
+    <p>Lorem ipsum dolor sit ame.</p>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div>
+  </div>
+  <div class="main">
+    <h2> "Send a Smile"</h2>
+    <h5>"Send a Smile is your premier online florist, dedicated to delivering fresh, beautiful flowers and unforgettable smiles. With a wide range of bouquets, arrangements, and gifts, we make it easy to show loved ones you care.
+      , Feb 28, 2025</h5>
+    <div class="fakeimg" style="height:200px;">
+    </div>
+    <p>Some text..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <br>
+    <h2>Best Sellers</h2>
+    <h5>The Flower Company Tale
+      Each milestone, each relationship, every kind of bond calls for a unique celebration. A celebration of moments and emotions that are just blooming, even celebrating those that have already blossomed. For such moments, there are luxury flower arrangements by The Flower Company.
+      Aesthetically appealing to the eye, these flower arrangements mark the strength of a bond, bring out the butterfly-blushed smile of an 18-year-old girl, highlight the rouge on a mother’s face when she hears from her distant son. These flowers laden this moment with beauty, luxury and panache and evoke a part of you that only poetry can do justice to., feb 28, 2025</h5>
+    <div class="fakeimg" style="height:400px; width: 200px;">
+      <img src="hq720.jpg"/></div>
+    <p>mixed comb</p>
+    <p></p>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
+
+
+
+
+
